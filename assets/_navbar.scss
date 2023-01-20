@@ -1,0 +1,18 @@
+nav {
+  @include bgcolor;
+  @include color;
+}
+
+.container-fluid {
+  @include size;
+}
+
+.btn{
+    @include bottone
+}
+
+.icon {
+  @include icone;
+}
+
+

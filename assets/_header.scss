@@ -1,0 +1,13 @@
+
+.contenitore1{
+    @include offerte;
+    @include contenuto;
+}
+
+h1 {
+    @include titolo;
+}
+
+.row {
+    @include colonna;
+}

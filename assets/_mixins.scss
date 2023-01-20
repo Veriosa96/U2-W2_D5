@@ -1,0 +1,111 @@
+//--------------------INIZIO  NAVBAR-------------------------
+
+@mixin bgcolor {
+  background-color: $fifthColor;
+}
+
+@mixin color {
+  .navbar-brand {
+    font-size: 3.5em;
+    color: $secondColor;
+  }
+  .nav-link {
+    font-size: 1.5em;
+    color: $secondColor !important;
+  }
+}
+
+@mixin size {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+@mixin bottone {
+  border: 1px solid $secondColor;
+  color: $secondColor;
+}
+
+@mixin icone {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 3em;
+  background-color: $fifthColor;
+  padding-bottom: 2em;
+  i {
+    padding-right: 3em;
+    color: $secondColor;
+  }
+}
+
+//--------------------FINE  NAVBAR-------------------------
+//
+//
+//
+//
+//--------------------INIZIO  MAIN-------------------------
+
+//--------------------INIZIO  HEADER-------------------------
+@mixin contenuto {
+}
+
+@mixin offerte {
+  background-color: $firstColor;
+  height: 45em;
+  border: 1.5px solid $firstColor;
+  border-radius: 6em;
+  padding-top: 2em;
+  margin-top: 2em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+@mixin titolo {
+  font-family: "Roboto", sans-serif;
+  color: $fifthColor;
+  display: flex;
+  justify-content: center;
+}
+
+@mixin colonna {
+  display: flex;
+  justify-content: space-around;
+  .card {
+    border-radius: 1em;
+    .card-img-top {
+      display: flex;
+      justify-content: center;
+      margin-top: 1em;
+    }
+    .thirdPic {
+      padding-top: 2em;
+    }
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+}
+
+//--------------------FINE HEADER-------------------------
+//--------------------INIZIO  SECTION-------------------------
+@mixin grandezza {
+    background-color: $firstColor;
+    border: 1px solid $firstColor;
+    padding-bottom: 3em;
+    margin-bottom: 5em;
+    border-radius: 10em;
+    margin-top: 5em;
+  text-align: center;
+  h2{
+    font-size:5em;
+    color: $thirdColor;
+  }
+  .logo {
+    height: 350px;
+    width: 350px;
+  }
+}
+//--------------------FINE SECTION-------------------------
+//--------------------FINE MAIN-------------------------

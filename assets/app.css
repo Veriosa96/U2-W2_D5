@@ -1,0 +1,95 @@
+.navbar-brand:hover {
+  color: #F2C070;
+}
+
+nav {
+  background-color: #020122;
+}
+nav .navbar-brand {
+  font-size: 3.5em;
+  color: #F2C070;
+}
+nav .nav-link {
+  font-size: 1.5em;
+  color: #F2C070 !important;
+}
+
+.container-fluid {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.btn {
+  border: 1px solid #F2C070;
+  color: #F2C070;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 3em;
+  background-color: #020122;
+  padding-bottom: 2em;
+}
+.icon i {
+  padding-right: 3em;
+  color: #F2C070;
+}
+
+.contenitore1 {
+  background-color: #F0C878;
+  height: 45em;
+  border: 1.5px solid #F0C878;
+  border-radius: 6em;
+  padding-top: 2em;
+  margin-top: 2em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  color: #020122;
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+.row .card {
+  border-radius: 1em;
+}
+.row .card .card-img-top {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+.row .card .thirdPic {
+  padding-top: 2em;
+}
+.row .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.contenitore2 {
+  background-color: #F0C878;
+  border: 1px solid #F0C878;
+  padding-bottom: 3em;
+  margin-bottom: 5em;
+  border-radius: 10em;
+  margin-top: 5em;
+  text-align: center;
+}
+.contenitore2 h2 {
+  font-size: 5em;
+  color: #FC9E4F;
+}
+.contenitore2 .logo {
+  height: 350px;
+  width: 350px;
+}/*# sourceMappingURL=app.css.map */
