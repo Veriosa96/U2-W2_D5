@@ -91,16 +91,16 @@
 //--------------------FINE HEADER-------------------------
 //--------------------INIZIO  SECTION-------------------------
 @mixin grandezza {
-    background-color: $firstColor;
-    border: 1px solid $firstColor;
-    padding-bottom: 3em;
-    margin-bottom: 5em;
-    border-radius: 10em;
-    margin-top: 5em;
+  background-color: $firstColor;
+  border: 1px solid $firstColor;
+  padding-bottom: 3em;
+  margin-bottom: 5em;
+  border-radius: 10em;
+  margin-top: 5em;
   text-align: center;
-  h2{
-    font-size:5em;
-    color: $thirdColor;
+  .part {
+    font-size: 5em;
+    color: $fifthColor;
   }
   .logo {
     height: 350px;
@@ -109,3 +109,31 @@
 }
 //--------------------FINE SECTION-------------------------
 //--------------------FINE MAIN-------------------------
+//
+//
+//
+//
+//--------------------INIZIO FOOTER-------------------------
+@mixin fine {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: $fifthColor;
+  color: $firstColor;
+  .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  a {
+    text-decoration: none;
+    color: $firstColor;
+    line-height: 3em;
+  }
+}
+//--------------------FINE FOOTER-------------------------
