@@ -92,15 +92,20 @@
     justify-content: end;
   }
 }
-
+//--------------------INIZIO SECONDA PARTE HEADER-------------------------
+@mixin secondaParte{
+  
+}
+//--------------------FINE SECONDA PARTE HEADER-------------------------
 //--------------------FINE HEADER-------------------------
 //--------------------INIZIO  SECTION-------------------------
 @mixin grandezza {
+  margin: 1.5em;
   background-color: $firstColor;
   border: 1px solid $firstColor;
   padding-bottom: 3em;
   margin-bottom: 5em;
-  border-radius: 10em;
+  border-radius: 6em;
   margin-top: 5em;
   text-align: center;
   .part {

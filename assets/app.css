@@ -81,12 +81,17 @@ h1 {
   justify-content: end;
 }
 
+#other {
+  background-color: #F2C070;
+}
+
 .contenitore2 {
+  margin: 1.5em;
   background-color: #F0C878;
   border: 1px solid #F0C878;
   padding-bottom: 3em;
   margin-bottom: 5em;
-  border-radius: 10em;
+  border-radius: 6em;
   margin-top: 5em;
   text-align: center;
 }
@@ -97,6 +102,24 @@ h1 {
 .contenitore2 .logo {
   height: 350px;
   width: 350px;
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-around;
+}
+.card-body .card {
+  border-radius: 1em;
+}
+.card-body .card .card-img-top {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+.card-body .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 .colFooter {

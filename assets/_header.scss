@@ -11,3 +11,7 @@ h1 {
 .row {
     @include colonna;
 }
+
+#other {
+    @include secondaParte;
+}

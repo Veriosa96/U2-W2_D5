@@ -1,3 +1,7 @@
 .contenitore2{
     @include grandezza;
 }
+
+.card-body {
+    @include  colonna
+}
