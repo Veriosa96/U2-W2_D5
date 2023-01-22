@@ -6,8 +6,9 @@ nav {
   background-color: #020122;
 }
 nav .navbar-brand {
-  font-size: 3.5em;
+  font-size: 2.6em;
   color: #F2C070;
+  cursor: pointer;
 }
 nav .nav-link {
   font-size: 1.5em;
@@ -15,8 +16,8 @@ nav .nav-link {
 }
 
 .container-fluid {
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 1em;
+  padding-bottom: 0.3em;
 }
 
 .btn {
@@ -30,11 +31,18 @@ nav .nav-link {
   justify-content: flex-end;
   padding-right: 3em;
   background-color: #020122;
-  padding-bottom: 2em;
+  padding-bottom: 0.3em;
 }
 .icon i {
-  padding-right: 3em;
+  padding-right: 1.5em;
   color: #F2C070;
+  font-size: 1.5em;
+}
+
+.collapse {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2em;
 }
 
 .contenitore1 {
@@ -66,9 +74,6 @@ h1 {
   display: flex;
   justify-content: center;
   margin-top: 1em;
-}
-.row .card .thirdPic {
-  padding-top: 2em;
 }
 .row .card-body {
   display: flex;
