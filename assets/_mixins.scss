@@ -106,12 +106,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+ 
   height: 100%;
   .photo{
     height: 30em;
-    width: 30em;
+    width: 30em !important;
     border: 1px solid $whiteColor;
     border-radius: 2em;
+  }
+  .carousel-indicators{
+    margin: 2em;
   }
   h5{
     color: $fifthColor;

@@ -98,9 +98,12 @@ h1 {
 }
 .other .photo {
   height: 30em;
-  width: 30em;
+  width: 30em !important;
   border: 1px solid white;
   border-radius: 2em;
+}
+.other .carousel-indicators {
+  margin: 2em;
 }
 .other h5 {
   color: #020122;
